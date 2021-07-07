@@ -1,0 +1,183 @@
+/*
+Theme Name: Vehica Child
+Theme URI: https://vehicatheme.com/
+Author: TangibleDesign
+Author URI: https://tangibledesign.net/
+Description: Vehica
+Template: vehica
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: translation-ready
+Text Domain: vehica
+*/
+.vehica-menu__wrapper {
+  justify-content: center;
+}
+.vehica-menu__wrapper .vehica-menu__left {
+  align-items: flex-end;
+  width: 100%;
+  justify-content: space-around;
+}
+.vehica-menu__wrapper .vehica-menu {
+  height: 30px;
+}
+.vehica-menu__wrapper .vehica-menu .vehica-menu__link {
+  font-weight: normal;
+}
+.vehica-menu__sticky-submit {
+  padding: 0 10px;
+  border: 2px solid #de2628;
+  border-radius: 3px;
+  background-color: #f1eeee;
+}
+.vehica-menu-desktop-login-register-link > div:first-child a {
+  color: #c30c0b !important;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  .home-listing .vehica-tabs-top-v1 .vehica-tabs-top-v1__left {
+    width: 100%;
+  }
+}
+
+.home-listing .vehica-tabs-top-v1__heading-big {
+  text-align: center;
+}
+.home-listing .vehica-tabs-top-v1 {
+  display: block;
+}
+.vehica-button--icon--search {
+  border-radius: 0;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #0b3e65;
+}
+.vehica-search-classic-v1
+  .vehica-search-classic-v1__inner
+  .vehica-search-classic-v1__divider {
+  height: 0;
+}
+@media (min-width: 1024px) {
+  .vehica-search-classic-v1__advanced-link {
+    padding-top: 25px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: #0b3e65;
+  }
+}
+.vehica-search-classic-v1
+  .vehica-search-classic-v1__inner
+  .vehica-search-classic-v1__inner {
+  background-color: #43b7cc;
+  border-radius: 10px;
+  border-top: 0;
+}
+.elementor-11872
+  .elementor-element.elementor-element-1d826d9.elementor-column
+  > .elementor-widget-wrap {
+  justify-content: center;
+}
+.vehica-search-classic-v1 {
+  width: 100%;
+}
+.v-select:not(.vs-open) .vs__dropdown-toggle {
+  border-radius: 0;
+}
+.vehica-number-range__1of2 input[type="text"] {
+  border-radius: 0;
+}
+.vehica-number-range__1of2 {
+  width: 45%;
+}
+.vehica-number-range__1of2.vehica-number-range__1of2--right {
+  float: right;
+}
+.textYearfromTo {
+  font-size: 24px;
+}
+.browse-sidebar {
+  background-color: #e8ecec;
+  padding: 10px;
+}
+.browse-sidebar h5 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.browse-make > li {
+  list-style: none;
+}
+.browse-make > li > a {
+  text-decoration: underline;
+  color: #0000ff;
+}
+#page-by-make {
+  max-width: 80%;
+  margin: auto;
+}
+
+#page-by-make h5 {
+  font-size: 2.6rem;
+  margin-bottom: 0.65rem;
+  font-weight: 700;
+}
+#page-by-make a {
+  color: #821213;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.browse-sidebar.elementor-widget:not(:last-child) {
+  margin-bottom: 0;
+}
+.vehica-subscribe-form {
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.vehica-subscribe-form input[type="email"] {
+  width: 100%;
+  border-radius: 2px;
+}
+.vehica-subscribe-form button.vehica-button {
+  margin: 0;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 22px;
+  text-shadow: 0px 0px 10px #465e7c;
+  background-color: #ff8400;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ffffff;
+  border-radius: 2px;
+}
+a.vehica-phone-highlight > span {
+  color: #fff;
+}
+.vehica-menu__transparent-container {
+  position: relative;
+}
+@media (min-width: 1025px) {
+  .vehica-featured-v1__vehicle--1,
+  .vehica-featured-v1__vehicle--2,
+  .vehica-featured-v1__vehicle--3,
+  .vehica-featured-v1__vehicle--4,
+  .vehica-featured-v1__vehicle--5,
+  .vehica-featured-v1__vehicle {
+    display: block;
+    width: 25%;
+  }
+  .vehica-featured-v1__footer {
+    margin: 0;
+  }
+  .vehica-featured-v1__vehicle {
+    margin-bottom: 28px;
+  }
+  .vehica-featured-v1 .vehica-featured-v1__grid {
+    max-width: 100%;
+  }
+}
